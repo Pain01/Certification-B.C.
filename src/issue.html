@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Form Style 10</title>
+<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+<style type="text/css">
+body{
+	background:#AEE4FF;
+}
+.form{
+	max-width:600px;
+	padding:30px;
+	margin:40px auto;
+	background: #FFF;
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+}
+.form .inner-wrap{
+	padding: 30px;
+	background: #F8F8F8;
+	border-radius: 6px;
+	margin-bottom: 15px;
+}
+.form h1{
+	text-align: center;
+	background: #2A88AD;
+	padding: 20px 30px 15px 30px;
+	margin: -30px -30px 30px -30px;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	font: normal 30px 'Bitter', serif;
+	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	border: 1px solid #257C9E;
+}
+.form h1 > span{
+	display: block;
+	margin-top: 2px;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+.form label{
+	display: block;
+	font: 13px Arial, Helvetica, sans-serif;
+	color: #888;
+	margin-bottom: 15px;
+}
+.form input[type="text"],
+.form select {
+	display: block;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 8px;
+	border-radius: 6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border: 2px solid #fff;
+	box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.33);
+}
+
+.form .section{
+	font: normal 20px 'Bitter', serif;
+	color: #2A88AD;
+	margin-bottom: 5px;
+}
+.form .section span {
+	background: #2A88AD;
+	padding: 5px 10px 5px 10px;
+	position: absolute;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border: 4px solid #fff;
+	font-size: 14px;
+	margin-left: -45px;
+	color: #fff;
+	margin-top: -3px;
+}
+.form input[type="button"], 
+.form input[type="submit"]{
+	background: #2A88AD;
+	padding: 8px 20px 8px 20px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	font: normal 30px 'Bitter', serif;
+	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	border: 1px solid #257C9E;
+	font-size: 15px;
+}
+.form input[type="button"]:hover, 
+.form input[type="submit"]:hover{
+	background: #2A6881;
+	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.28);
+}
+
+table,th,td
+	{
+		border:2px solid #2A88AD;
+		border-collapse: collapse;
+		border-radius: 10px;
+	}
+	th,td
+	{
+		padding: 5px 20px;
+	}
+.button-section{
+	text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="form">
+<h1 style="border:1px solid white;border-radius: 10px;">RSA<span><h3>RSA Institute Of Technology</h3></span><span><h3>(Engineering College)</h3></span><span><h3>Affiliated to MUMBAI UNIVERSITY OF MUMBAI</h3></span></h1>
+<form name='issue' onsubmit="App.issue();return false;" id="#content">
+	<h2 STYLE="TEXT-ALIGN:CENTER;color:#2A88AD">GRADE CARD </h2>
+	
+    <div class="section">
+    <div class="inner-wrap">
+    	
+       
+        <div class="no">
+        	<label>Cer.No <input type="text" name="field0" id="f0" /></label>
+        </div>
+         <label>Candidate Full Name <input type="text" name="field1" /></label>
+         <label>Candidate Mother Name <input type="text" name="field2" /></label>
+         <label>Examination Name <input type="text" name="field3"  /></label>
+         <label>Year of Examination <input type="text" name="field4" /></label>
+         <label>Branch<input type="text" name="field5"></textarea></label>
+          <label>Seat No <input type="text" name="field6" /></label>
+    <table align=center>
+		<tr>
+			<th>Course Name</th>
+			<th>Grade</th>
+			<th>Credit Points</th>
+		</tr>
+		<tr>
+			<td><input type="text" name="field11" /></td>
+			<td><input type="text" name="field12" /></td>
+			<td><input type="text" name="field13" /></td>
+			
+		</tr>
+		<tr>
+			<td><input type="text" name="field14" /></td>
+			<td><input type="text" name="field15" /></td>
+			<td><input type="text" name="field16" /></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="field17" /></td>
+			<td><input type="text" name="field18" /></td>
+			<td><input type="text" name="field19" /></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="field20" /></td>
+			<td><input type="text" name="field21" /></td>
+			<td><input type="text" name="field22" /></td>
+		</tr>
+		<tr>
+			<td><input type="text" name="field23" /></td>
+			<td><input type="text" name="field24" /></td>
+			<td><input type="text" name="field25" /></td>
+		</tr>
+		
+	</table><br>
+	 <label>Remark<input type="text" name="field26" /></label>
+    </div>
+
+   	
+    <div class="button-section">
+     <input type="submit" name="Issue" />
+    </div>
+</form>
+	<div id="hash"></div>
+    <div id="accountAddress"></div>
+    <div id="hash1"></div>
+    <div id="hash2"></div>
+        <div id="Result"></div>
+                <div id="hash4"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/web3.min.js"></script>
+<script src="js/truffle-contract.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

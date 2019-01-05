@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+	<head>
+		<link href="slider111.css" rel="stylesheet" type="text/css">
+     <link href="style1.css" rel="stylesheet" type="text/css">
+     <link href="button.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" href="css/footer-distributed.css">
+    <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+	</head>
+	<body>
+		<header id="main-header">
+            <nav> 
+                <div id="row">
+                  <div class="logo_section">
+                    <div class="logo">
+                        <h1 >RSA</h1>
+                    </div>
+                  </div>
+                        <!-- <div class="nav"> -->
+                            <ul class="main-nav">
+                                <li><a href="index.html" style="color:orange;border-bottom: 4px solid rgb(102,253,2);padding:5px 0;">HOME </a></li>
+                                <li><a href="issue.html">ISSUE</a></li>
+                                <li><a href="verify.html">VERIFICATION</a></li>
+                                <li><a href="aboutus.html">ABOUT US</a></li>
+                                <li><a href="contactus.html">CONTACT US</a></li>
+                                <li><a href="Sign_in.html">SIGN IN/UP</a></li>
+                            </ul>
+                </div>
+              </nav>
+        </header>
+		<div class="slideshow-container">
+  			<div class="mySlides fade">
+    			
+    			<img src="bg-3.jpg" style="width:100%" >
+    			
+  			</div>
+			<div class="mySlides fade">
+    			
+    			<img src="bg-blinear-gradient(to right, #a8c0ff, #3f2b96).jpg" style="width:100%">
+    			
+  			</div>
+ 			<div class="mySlides fade">
+    			
+    			<img src="bg-3.jpg" style="width:100%">
+    			
+  			</div>
+        <div class="box">
+         
+        <div class="text">
+          <div>
+              
+              <h1>Welcome To Our</h1>
+              <h1>RSA</h1>
+              <h1>university</h1>
+
+              <br>
+              <a href="menu.html">READ MORE</a><button>
+          </div>
+        </div>
+      </div>
+
+  
+  			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
+  <script>
+	   var slideIndex = 1;
+     showSlides(slideIndex);
+
+// Next/previous controls
+     function plusSlides(n) {
+     showSlides(slideIndex += n);
+     }
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+</script>
+      <div class="footer-distributed" STYLE="font-family:comic sans ms;">
+
+      <div class="footer-left">
+
+        <h1 STYLE="font-family:comic sans ms"><span style="color:orange">R</span>S<span style="color:yellow">A</span></h1>
+
+        <p class="footer-links">
+          <a href="rohanindex.html" style="color:orange;border-bottom: 4px solid rgb(102,253,2);padding:5px 0;">HOME </a>&nbsp;&nbsp;
+          
+          <a href="#">BLOG</a>&nbsp;&nbsp;
+          
+          <a href="#">MENU</a>&nbsp;&nbsp;
+          
+          <a href="#">ABOUT US</a>&nbsp;&nbsp;
+          
+          
+          
+          <a href="#">CONTACT US</a>
+        </p>
+
+        <p class="footer-company-name">Tom & Jerry's Kitchen &copy; 2018</p>
+      </div>
+
+      <div class="footer-center">
+        <div class="f_w_title">
+          <h2>&nbsp;&nbsp;CONTACT US</24><br><br>
+          </div>
+           &nbsp;&nbsp;&nbsp;&nbsp;<p>Have questions, comments or just want<br> to say hello:</p><br><br>
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>21 Revolution Street</span> Borivali, Mumbai</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+91 9769484860</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:mistryh1999@gmail.com">Tom999@gmail.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+          
+        <p class="footer-company-about">
+          <h2>About us</h2><br>
+          Newly opened kitchen for small scale Business.
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div id="result"></div>
+    <div id="accountAddress"></div>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+	</body>
+</html>
